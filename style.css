@@ -23,6 +23,16 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 
+h3 {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.0175rem;
+  text-transform: uppercase;
+}
+
 p {
   font-family: "Outfit", sans-serif;
   font-size: 1rem;
@@ -43,8 +53,7 @@ p {
 }
 
 .hero__poster {
-  width: auto;
-  max-width: 500px;
+  width: min(90%, 500px);
   aspect-ratio: 3 / 4;
 }
 
