@@ -85,14 +85,8 @@ p {
 
 .livestream__feed {
   display: flex;
-}
-
-.livestream__feed__video {
-  justify-self: center;
-}
-
-.program {
-  margin-top: -10rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .program > h1 {
