@@ -6,16 +6,64 @@
 
 body {
   background-color: black;
+  color: #fff;
+}
+
+.column-aligned {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+h1 {
+  font-family: "Allura", cursive;
+  font-size: 2.85rem;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  width: min(100vw, 500px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
+  padding-top: 4rem;
 }
 
 .hero__poster {
-  height: 100vh;
+  width: auto;
+  max-width: 500px;
+  aspect-ratio: 3 / 4;
+}
+
+.hero__cta {
+  position: relative;
+  width: 5rem;
+  aspect-ratio: 1/1;
+  margin-left: 2.25rem;
+}
+
+.hero__cta > .cta__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero__cta > .cta__arrow {
+  position: absolute;
+  top: 46%;
+  left: 46%;
+  transform: translate(-50%, -50%);
 }
