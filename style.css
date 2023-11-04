@@ -56,12 +56,15 @@ p {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  padding-top: 4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  justify-content: space-between;
 }
 
 .hero__poster {
   width: min(90%, 500px);
   aspect-ratio: 3 / 4;
+  margin-bottom: auto;
 }
 
 .hero__cta {
